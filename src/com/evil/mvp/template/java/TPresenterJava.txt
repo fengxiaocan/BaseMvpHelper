@@ -1,0 +1,13 @@
+package $packageName_;
+
+import com.app.mvp.BasePresenter;
+import $packageName_.$moduleName_Mvp;
+
+public class $moduleName_Presenter extends BasePresenter<$moduleName_Mvp.IModel, $moduleName_Mvp.IView> implements $moduleName_Mvp.IPresenter {
+
+    @Override
+    protected $moduleName_Model createModel() {
+        return new $moduleName_Model();
+    }
+
+}

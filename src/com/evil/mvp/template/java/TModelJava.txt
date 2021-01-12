@@ -1,0 +1,8 @@
+package $packageName_;
+
+import com.app.mvp.BaseModel;
+import $packageName_.$moduleName_Mvp;
+
+public class $moduleName_Model extends BaseModel implements $moduleName_Mvp.IModel {
+
+}

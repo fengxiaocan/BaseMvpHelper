@@ -1,0 +1,40 @@
+<idea-plugin>
+    <id>com.fxc.mvp</id>
+    <name>BaseMvpHelper</name>
+    <version>1.0</version>
+    <vendor email="fengxiaocan@gmail.com" url="https://github.com/fengxiaocan">evil</vendor>
+
+    <description>A plugin that helps you to create classes and interfaces for MVP.Support Java and Kotlin.</description>
+
+    <change-notes>
+        1.0
+
+        add the function of automatically generating code in the Java or Kotlin class.
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="com.fxc.mvp.BaseJavaMvpHelper" class="com.evil.mvp.BaseJavaMvpHelper" text="New Java Mvp"
+                description="Auto java mvp code">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
+        </action>
+        <action id="com.fxc.mvp.BaseKtMvpHelper" class="com.evil.mvp.BaseKtMvpHelper" text="New Kotlin Mvp"
+                description="Auto kotlin mvp code">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
+        </action>
+    </actions>
+
+</idea-plugin>

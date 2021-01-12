@@ -1,0 +1,20 @@
+package $packageName_;
+
+import com.app.mvp.IBaseModel;
+import com.app.mvp.IBasePresenter;
+
+public interface $moduleName_Mvp {
+
+    interface IPresenter extends IBasePresenter<IView> {
+
+    }
+
+    interface IModel extends IBaseModel {
+
+    }
+
+    interface IView{
+
+    }
+
+}

@@ -1,0 +1,8 @@
+package $packageName_
+
+import com.app.mvp.BaseModel
+import $packageName_.$moduleName_Mvp
+
+class $moduleName_Model:BaseModel(),$moduleName_Mvp.IModel {
+
+}
