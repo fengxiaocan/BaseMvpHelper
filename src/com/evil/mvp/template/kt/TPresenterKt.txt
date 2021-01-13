@@ -5,8 +5,6 @@ import $packageName_.$moduleName_Mvp
 
 class $moduleName_Presenter:BasePresenter<$moduleName_Mvp.IModel?, $moduleName_Mvp.IView?>() , $moduleName_Mvp.IPresenter {
 
-    override fun createModel():$moduleName_Model {
-        return $moduleName_Model()
-    }
+    override fun createModel() = $moduleName_Model()
 
 }

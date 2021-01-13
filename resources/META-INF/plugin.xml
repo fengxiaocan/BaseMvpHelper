@@ -4,17 +4,21 @@
     <version>1.0</version>
     <vendor email="fengxiaocan@gmail.com" url="https://github.com/fengxiaocan">evil</vendor>
 
-    <description>A plugin that helps you to create classes and interfaces for MVP.Support Java and Kotlin.</description>
+    <description><![CDATA[
+    A plugin that helps you to create classes and interfaces for MVP.Support Java and Kotlin.<br>
+    ]]></description>
 
-    <change-notes>
-        1.0
-
-        add the function of automatically generating code in the Java or Kotlin class.
-    </change-notes>
+    <change-notes><![CDATA[
+       <li>1.0</li>
+       <li>add the function of automatically generating code in the Java or Kotlin class.</li>
+       <br>
+    ]]></change-notes>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-    <idea-version since-build="173.0"/>
+    <idea-version since-build="110.0"/>
 
+    <depends>com.intellij.modules.java</depends>
+    <depends>com.intellij.modules.platform</depends>
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
     <!-- uncomment to enable plugin in all products
